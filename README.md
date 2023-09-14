@@ -14,3 +14,5 @@ Dentro do repositório tem o arquivo que eu faço a extração dos dados, é o a
 | -------- | ------- |  ------- | ------- | ------- | ------- | ------- |
 
 Eu fiz uma tela para inserção dos dados:
+![GitHub Logo](https://github.com/lauf8/satander-botcamp/blob/main/static/readme_img/fichario.png
+)
