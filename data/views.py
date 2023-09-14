@@ -120,5 +120,4 @@ def sport_detail(request, pk):
         'athletes' : athletes,
     }
     
-    print(context)
     return render(request, 'sport/detail.html', context)
