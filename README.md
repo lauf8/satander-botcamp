@@ -32,8 +32,6 @@ Existe uma tela que lista todos as modalidades:
 ![GitHub Logo](https://github.com/lauf8/satander-botcamp/blob/main/static/readme_img/sports.png
 )
 
-E a tela final é uma tela detalhando todas as modalidades e com alguns KPI, indicando algumas informações que podem ser relevantes de cada  modalidade, como média de peso, idade, número de atletas inscritos e número de nações inscritas. 
-
-Existe uma tela que lista todos as modalidades:
+E a tela final é uma tela detalhando todas as modalidades e com alguns KPI, indicando algumas informações que podem ser relevantes de cada  modalidade, como média de peso, idade, número de atletas inscritos e número de nações inscritas.
 ![GitHub Logo](https://github.com/lauf8/satander-botcamp/blob/main/static/readme_img/sports_detail.png
 )
