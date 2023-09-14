@@ -1,0 +1,50 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="row">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Nacionalidade</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sport</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for athlete in athletes  %}
+            
+            <th scope="row">{{athlete.name}}</th>
+            <th scope="row">{{athlete.nationality}}</th>
+            <th scope="row">{{athlete.age}}</th>
+            <th scope="row">{{athlete.sport}}</th>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      
+      
+    </div>
+   
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      md.initDashboardPageCharts();
+
+    });
+  </script>
+
+{% endblock javascripts %}

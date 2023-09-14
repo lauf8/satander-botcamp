@@ -1,10 +1,10 @@
 from django.db import models
 
-class Nacionality(models.Model):
-    nacionality = models.CharField(max_length=75)
+class Nationality(models.Model):
+    nationality = models.CharField(max_length=75)
     
     def __str__(self):
-        return self.nacionality
+        return self.nationality
 
 class Sport(models.Model):
     sport = models.CharField(max_length=75)
@@ -17,4 +17,4 @@ class Athletes(models.Model):
     ht = models.IntegerField()
     kg = models.IntegerField()
     sport = models.ForeignKey(Sport, on_delete=models.CASCADE)
-    nacionality = models.ForeignKey(Nacionality, on_delete=models.CASCADE)
+    nationality = models.ForeignKey(Nationality, on_delete=models.CASCADE)
